@@ -1,14 +1,13 @@
-# eview-ui组件库
+# 快速开始
 
-### 快速开始
-
-#### 1.安装件组件
+#### 安装件组件
 
 ```bash
 npm i eview-ui
 ```
 
-#### 2.引入组件库
+#### 使用组件库
+> 在 main.js 中引入组件库
 ```javascript
 //  全局引入
 import 'eview-ui/lib/css/index.css';
