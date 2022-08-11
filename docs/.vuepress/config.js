@@ -1,7 +1,7 @@
 const { defaultTheme } = require('@vuepress/theme-default')
 
 module.exports = {
-  // base: '/EviewUI/',
+  // base: '/EviewUI/', // 设置了不生效
   title: 'EviewUI组件库',
   description: '只是玩玩而已',
   theme: defaultTheme({
@@ -22,16 +22,8 @@ module.exports = {
     ],
     // 侧边栏数组
     // 所有页面会使用相同的侧边栏
-    sidebar: ['/', '/component-docs/card']
-    // sidebar: [
-    //   {
-    //     text: '快速开始',
-    //     link: '/'
-    //   },
-    //   {
-    //     text: 'Card',
-    //     link: '/component-docs/card',
-    //   }
-    // ],
+    sidebar: ['/', '/component-docs/card'],
+    notFound: ['页面不存在'],
+    backToHome: '返回首页'
   }),
 }
