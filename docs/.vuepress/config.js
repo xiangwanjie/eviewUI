@@ -1,9 +1,16 @@
 const { defaultTheme } = require('@vuepress/theme-default')
 
 module.exports = {
+  // base: '/EviewUI/',
+  title: 'EviewUI组件库',
+  description: '只是玩玩而已',
   theme: defaultTheme({
     // 导航栏
     navbar: [
+      {
+        text: 'Home',
+        link: '/',
+      },
       {
         text: 'GitHub',
         link: '/foo/',
@@ -15,16 +22,16 @@ module.exports = {
     ],
     // 侧边栏数组
     // 所有页面会使用相同的侧边栏
-    sidebar: [
-      // SidebarItem
-      {
-        text: '快速开始',
-        link: '/'
-      },
-      {
-        text: 'Card',
-        link: '/component-docs/card'
-      }
-    ],
+    sidebar: ['/', '/component-docs/card']
+    // sidebar: [
+    //   {
+    //     text: '快速开始',
+    //     link: '/'
+    //   },
+    //   {
+    //     text: 'Card',
+    //     link: '/component-docs/card',
+    //   }
+    // ],
   }),
 }

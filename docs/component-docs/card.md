@@ -2,6 +2,7 @@
 卡片组件
 
 ### 示例
+<br />
 <e-card imgSrc="/1.jpeg" summary="0到1快速构建自己的后台管理系统"></e-card>
 
 ### 代码
@@ -9,7 +10,7 @@
 <e-card imgSrc="/1.jpeg" summary="0到1快速构建自己的后台管理系统"></e-card>
 ```
 
-### Attributes
+## Attributes
 | 参数 | 说明 | 类型 | 是否必要 | 默认值 |
 | --- | --- | --- | --- | --- |
 | width | 卡片的宽度 | Number | false | - |
