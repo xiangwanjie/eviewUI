@@ -34,6 +34,7 @@ npm run build
 ```
 
 ### 文档服务
+使用 node版本v14.16.0
 #### 1、文档本地预览
 ```
 npm run docs:dev
