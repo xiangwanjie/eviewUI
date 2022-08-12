@@ -20,3 +20,30 @@ import 'eview-ui/lib/css/demo.css';
 import { Demo } from 'eview-ui';
 Vue.use(Demo);
 ```
+
+### 项目启动
+使用 node版本v10.15.0
+
+#### 1、本地调试组件服务
+```
+npm run serve
+```
+#### 2、组件打包
+```
+npm run build
+```
+
+### 文档服务
+#### 1、文档本地预览
+```
+npm run docs:dev
+```
+#### 2、文档打包
+```
+npm run docs:build
+```
+#### 3、部署文档到Github站点
+```
+npm run deploy
+```
+#### 4、文档预览地址：https://xiangwanjie.github.io/eviewUI/
