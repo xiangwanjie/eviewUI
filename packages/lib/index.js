@@ -1,3 +1,4 @@
+import { version } from '../../package.json';
 import Demo from "./demo";
 import Card from "./card";
 
@@ -14,7 +15,9 @@ const install = function (Vue) {
 }
 
 const API = {
-  install
+  version,
+  install,
+  ...componetns
 }
 
 export default API;
