@@ -1,7 +1,7 @@
 const { defaultTheme } = require('@vuepress/theme-default')
 
 module.exports = {
-  // base: '/EviewUI/', // 设置了不生效
+  base: '/eviewUI/',
   title: 'EviewUI组件库',
   description: '只是玩玩而已',
   theme: defaultTheme({
