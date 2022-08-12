@@ -1,5 +1,7 @@
 # eview-ui组件库
 
+文档地址: https://xiangwanjie.github.io/eviewUI/
+
 ### 快速开始
 
 #### 1.安装件组件
@@ -47,4 +49,3 @@ npm run docs:build
 ```
 npm run deploy
 ```
-#### 4、文档预览地址：https://xiangwanjie.github.io/eviewUI/
