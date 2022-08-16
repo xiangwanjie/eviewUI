@@ -13,7 +13,7 @@ module.exports = {
       },
       {
         text: 'GitHub',
-        link: '/foo/',
+        link: 'https://github.com/xiangwanjie/eviewUI',
       },
       {
         text: 'Npm',
